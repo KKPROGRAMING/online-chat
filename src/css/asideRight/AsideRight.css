@@ -1,0 +1,11 @@
+.asideRight {
+    border: 1px solid blue;
+
+    width: 33rem;
+    height: 36rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
