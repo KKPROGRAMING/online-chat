@@ -1,0 +1,39 @@
+.signatrue {
+    max-width: 14rem;
+
+    /* border: 1px solid rgb(116, 122, 194); */
+
+    width: fit-content;
+    height: 1.2rem;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-size: small;
+
+    color: black;
+
+    margin: 0 1rem;
+}
+
+.msg {
+    max-width: 9rem;
+
+    /* border: 1px solid rgb(116, 122, 194); */
+
+    width: fit-content;
+    height: 1.2rem;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-size: small;
+
+    color: black;
+
+    margin: 0 1rem;
+}

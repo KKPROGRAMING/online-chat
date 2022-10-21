@@ -7,7 +7,7 @@ export default class AsideRight extends React.Component{
     render(){
         return (
             <div className="asideRight">
-                <HeadBar/>
+                <HeadBar changeStyle={this.props.changeStyle}/>
                 <Chat/>
             </div>
         );

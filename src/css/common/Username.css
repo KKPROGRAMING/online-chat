@@ -1,0 +1,18 @@
+.username {
+    /* border: 1px solid rgb(116, 122, 194); */
+
+    max-width: 12rem;
+    width: fit-content;
+    height: 1.4rem;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    font-weight: bold;
+    font-size: medium;
+
+    color: black;
+
+    margin: 0.2rem 1rem;
+}

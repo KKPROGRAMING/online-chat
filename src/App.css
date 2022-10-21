@@ -1,37 +1,57 @@
 main {
-    border: 1px solid white;
+  border: 1px solid rgb(255, 255, 255);
+    /* background-color: rgba(136, 208, 244, 0.628); */
+    /* background-color: rgb(24,144,255); */
 
-    width: 100%;
-    height: 97.5vh;
+  width: 100%;
+  height: 97.5vh;
 
-    background-image: url("../public/background/homer-simpson-200.png");
+  /* background-image: url("../public/background/homer-simpson-200.png"); */
 }
 
 .main-night {
-    background-color: rgb(40, 39, 39);
+  background-color: rgb(55, 54, 54);
+
+  width: 100%;
+  height: 97.5vh;
+
+  /* background-image: url("../public/background/homer-simpson-200.png"); */
 }
 
 .App {
-    border: 0.7px solid rgb(172, 172, 172); 
-    box-shadow: rgb(152, 151, 151) 1px 1px 4px 2px;
-    background-color: white;
-    
-    width: 57rem;
-    height: 39rem;
+  border: 0.7px solid rgb(172, 172, 172);
+  box-shadow: rgb(173, 171, 171) 1px 1px 4px 2px;
+  background-color: rgb(255, 255, 255);
 
-    margin: 7rem 9rem;
+  width: 57rem;
+  height: 39rem;
 
-    box-sizing: border-box;
-    padding: 1.2rem;
+  margin: 7rem 9rem;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+  box-sizing: border-box;
+  padding: 1.2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .App-night {
-    border: 0.7px solid rgb(67, 66, 66);
-    box-shadow: rgb(28, 27, 27) 1px 1px 4px 2px;
-    background-color: rgb(75, 74, 74);
+  border: 0.7px solid rgb(67, 66, 66);
+  box-shadow: rgb(28, 27, 27) 1px 1px 4px 2px;
+  background-color: rgba(93, 93, 99, 0.884);
+
+  width: 57rem;
+  height: 39rem;
+
+  margin: 7rem 9rem;
+
+  box-sizing: border-box;
+  padding: 1.2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }

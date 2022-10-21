@@ -1,6 +1,11 @@
 .chat {
-    border: 1px solid blue;
+    border: 1px solid rgb(194, 194, 194);
 
     width: 33rem;
-    height: 31.5rem;
+    height: 32.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
 }

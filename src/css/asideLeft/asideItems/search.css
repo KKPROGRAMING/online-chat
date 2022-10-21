@@ -1,6 +1,11 @@
-.search {
-    border: 1px solid blue;
+@import '~antd/dist/antd.css';
 
-    width: 20rem;
-    height: 1.8rem;
+.search {
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+
+    width: 19.9rem;
+    height: fit-content;
+
+    display:flex;
 }

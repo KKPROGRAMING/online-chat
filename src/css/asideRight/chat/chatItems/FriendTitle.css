@@ -1,10 +1,14 @@
-.personal {
+.friendTitle {
     border: 1px solid rgb(194, 194, 194);
 
-    width: 20rem;
-    height: 4.2rem;
+    width: 33rem;
+    height: 4.5rem;
 
-    overflow: hidden;
+    position: sticky;
+    bottom: 100%;
+
+    box-sizing: border-box;
+    padding: 0 0.2rem;
 
     display: flex;
     flex-direction: row;
@@ -12,7 +16,10 @@
     align-items: center;
 }
 
-.personalInfo {
+.friendInfo {
+    /* border: 1px solid red; */
+    width: 15rem;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
