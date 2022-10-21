@@ -3,4 +3,9 @@
 
     width: 20rem;
     height: 36rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
 }

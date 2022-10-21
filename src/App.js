@@ -4,7 +4,7 @@ import AsideRight from "./js/asideRight/AsideRight";
 
 export default function App() {
   return (
-    <main>
+    <main className="main">
       <div className="App">
         <AsideLeft/>
         <AsideRight/>

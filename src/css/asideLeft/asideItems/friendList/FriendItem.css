@@ -1,0 +1,8 @@
+.friendItem {
+    border: 1px solid purple;
+
+    width: 20rem;
+    height: 4.5rem;
+
+    flex-shrink: 0;
+}

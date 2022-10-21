@@ -1,0 +1,9 @@
+.footBar {
+    border: 1px solid red;
+
+    width: 20rem;
+    height: 1.8rem;
+
+    position: sticky;
+    top: 100%;
+}

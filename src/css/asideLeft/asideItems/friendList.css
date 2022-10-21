@@ -1,0 +1,14 @@
+.friendList {
+    border: 1px solid blue;
+
+    width: 20rem;
+    height: 26rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

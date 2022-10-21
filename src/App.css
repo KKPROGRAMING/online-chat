@@ -12,8 +12,8 @@ main {
 }
 
 .App {
-    border: 2px solid rgb(172, 172, 172); 
-    box-shadow: rgb(152, 151, 151) 4px 3px 6px 3px;
+    border: 0.7px solid rgb(172, 172, 172); 
+    box-shadow: rgb(152, 151, 151) 1px 1px 4px 2px;
     background-color: white;
     
     width: 57rem;
@@ -31,7 +31,7 @@ main {
 }
 
 .App-night {
-    border: 2px solid rgb(67, 66, 66);
-    box-shadow: rgb(28, 27, 27) 4px 3px 6px 3px;
+    border: 0.7px solid rgb(67, 66, 66);
+    box-shadow: rgb(28, 27, 27) 1px 1px 4px 2px;
     background-color: rgb(75, 74, 74);
 }
