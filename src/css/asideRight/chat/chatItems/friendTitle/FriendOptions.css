@@ -1,0 +1,15 @@
+.friendOptions {
+    /* border: 1px solid red; */
+
+    position: sticky;
+    left: 100%;
+
+    width: 4.5rem;
+
+    margin: 0 0.2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

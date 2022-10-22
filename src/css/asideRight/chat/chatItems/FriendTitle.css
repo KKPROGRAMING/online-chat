@@ -1,5 +1,6 @@
 .friendTitle {
     border: 1px solid rgb(194, 194, 194);
+    border-bottom: none;
 
     width: 33rem;
     height: 4.5rem;
