@@ -1,4 +1,5 @@
 const friends = [
+    {username:'李泽言',msg:'不要太想我。',src:'http://kkprograming.gitee.io/static-resource-library/img1.jpeg'},
 {username:'土间埋🍊',msg:'我是土间埋🍊',src:'http://kkprograming.gitee.io/static-resource-library/uml.jpg'},
 {username:'土间太平',msg:'我是土间太平',src:'http://kkprograming.gitee.io/static-resource-library/umlnisan.jpg'},
 {username:'虚虚猪',msg:'我是虚虚猪',src:'http://kkprograming.gitee.io/static-resource-library/img4.jpeg'},
@@ -8,5 +9,5 @@ const friends = [
 {username:'嘉拉迪雅',msg:'我是嘉拉迪雅',src:'http://kkprograming.gitee.io/static-resource-library/jialadiya_resize.jpg'},
 {username:'homer·simpson',msg:'我是homer·simpson',src:'http://kkprograming.gitee.io/static-resource-library/homer-simpson-300.png'},
 ];
-
 export default friends;
+
