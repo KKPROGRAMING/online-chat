@@ -1,0 +1,36 @@
+.divider {
+    /* border: 1px solid red; */
+}
+
+.rankingItem {
+    /* border: 1px solid rgb(194, 194, 194); */
+
+    width: 20rem;
+    height: 4rem;
+
+    margin-top: -0.5rem;
+
+    flex-shrink: 0;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.letterRankingItem:hover {
+    background-color: rgb(241,241,241);
+}
+
+.personalInfo {
+    /* border: 1px solid red; */
+
+    width: 11rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}

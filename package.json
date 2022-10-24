@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
-    "antd": "^4.23.6"
+    "antd": "^4.23.6",
+    "pinyin-pro": "^3.11.0"
   }
 }

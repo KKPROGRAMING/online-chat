@@ -4,6 +4,10 @@
 }
 
 .sprit {
-    width: 10rem;
+    width: 23.1rem;
     flex-wrap: wrap;
+}
+
+.sprit Button {
+    width: 3.3rem;
 }

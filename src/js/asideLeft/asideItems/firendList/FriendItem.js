@@ -10,7 +10,7 @@ export default class FriendItem extends React.Component {
     render(){
         return (
             <div className="friendItem">
-                <UserImg title={this.props.username} src={this.props.src}/>
+                <UserImg title={this.props.username} type="userImg" src={this.props.src}/>
                 <div className="personalInfo">
                     <Username content={this.props.username}/>
                     <SignatrueOrMsg  classname={this.props.classname} content={this.props.signatrueOrMsg}/>

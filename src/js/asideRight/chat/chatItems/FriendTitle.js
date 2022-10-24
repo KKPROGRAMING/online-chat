@@ -9,9 +9,9 @@ export default class FriendTitle extends React.Component {
   render() {
     return (
       <div className="friendTitle">
-        <UserImg />
+        <UserImg type="userImg" src=" http://kkprograming.gitee.io/static-resource-library/img1.jpeg"/>
         <div className="friendInfo">
-          <Username content={this.props.username} />
+          <Username content={this.props.username}/>
           <SignatrueOrMsg classname={this.props.classname} content={this.props.signatrue} />
         </div>
         <FriendOptions username={this.props.username}/>

@@ -3,7 +3,7 @@ import "../../../../../css/asideRight/chat/chatItems/edit/EditBar.css";
 import Emoji from "./editBarItmes/Emoji"
 import MyEmoPack from "./editBarItmes/MyEmoPack"
 import Style from "./editBarItmes/Style";
-import History from "./editBarItmes/History";
+// import History from "./editBarItmes/History";
 import Send from "./editBarItmes/Send";
 
 export default class EditBar extends React.Component {
@@ -14,7 +14,7 @@ export default class EditBar extends React.Component {
         <Emoji/>
         <MyEmoPack/>
         <Style/>
-        <History/>
+        {/* <History/> */}
         </div>
         <Send/>
       </div>
