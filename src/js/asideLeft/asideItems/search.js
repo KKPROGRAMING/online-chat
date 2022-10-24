@@ -8,9 +8,9 @@ export default class Search extends React.Component {
   render() {
     return (
       <div className="search">
-        <Input placeholder="search..." />
+        <Input placeholder="输入些什么吧..." />
         <Button type="primary" icon={<SearchOutlined />}>
-          Search
+          搜索
         </Button>
       </div>
     );

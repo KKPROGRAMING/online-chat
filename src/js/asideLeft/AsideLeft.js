@@ -4,6 +4,7 @@ import Personal from "./asideItems/Personal";
 import Search from "./asideItems/Search";
 import FriendList from "./asideItems/FriendList";
 import RankingList from "./asideItems/RankingList";
+import AddFriends from "./asideItems/AddFriends";
 import FootBar from "./asideItems/FootBar";
 
 export default class AsideLeft extends React.Component {
@@ -47,7 +48,7 @@ export default class AsideLeft extends React.Component {
           <Personal />
           <Search />
           <div>
-            <FriendList />
+            <AddFriends />
             <FootBar selectSegmented={this.selectSegmented}/>
           </div>
         </div>

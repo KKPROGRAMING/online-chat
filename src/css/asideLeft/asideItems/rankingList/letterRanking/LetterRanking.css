@@ -1,0 +1,11 @@
+@keyframes letterRanking_fadein {
+    from{opacity: 0.2;}
+    to{opacity:1}
+}
+
+.letterRanking {
+    /* border: 1px solid red; */
+    animation-name:fireRanking_fadein ;
+    animation-duration: 1.2s;
+    animation-iteration-count: 1;
+}

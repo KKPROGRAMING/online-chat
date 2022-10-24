@@ -31,16 +31,15 @@ export default class FireRankingItem extends React.Component {
     } else {
       style = "commonRank";
       icon = <FireTwoTone style={{ fontSize: 20 }} twoToneColor="#d9e5f4" />;
-      valueStyle = { color: "#d9e5f4", fontSize: 20  };
+      valueStyle = { color: "#d9e5f4", fontSize: 20 };
     }
 
     return (
       <div className="fireRankingItem">
-        {/* <h2 className="rank">{this.props.index}</h2> */}
-        <Button className={style} type="text" shape="circle">
+        <h3 className={style} type="text" shape="circle">
           {this.props.index}
-        </Button>
-        <UserImg title={targetName} src={targetImg} type="userImg-ranking" />
+        </h3>
+        <UserImg src={targetImg} type="userImg-ranking" />
         <div className="personalInfo">
           <Username content={targetName} />
         </div>

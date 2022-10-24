@@ -8,9 +8,9 @@ export default class FireRanking extends React.Component {
     let fireSort = link.sort((a, b) => {
       return b.fire - a.fire;
     });
-    console.log(fireSort);
+    // console.log(fireSort);
     return (
-      <div className="letterRanking">
+      <div className="fireRanking">
         {fireSort.map((item, index) => (
           <FireRankingItem
             link={item}
