@@ -43,6 +43,7 @@ export default class AddFriends extends React.Component {
         <Button type="primary" className="submit">
           发起好友申请
         </Button>
+        <div className="footLine"></div>
       </div>
     );
   }
