@@ -9,9 +9,7 @@ export default class LetterRankingItem extends React.Component {
       <div>
         <div className="rankingItem">
           <UserImg type="userImg-ranking" src={this.props.src} />
-          <div className="personalInfo">
             <Username content={this.props.username} />
-          </div>
         </div>
       </div>
     );

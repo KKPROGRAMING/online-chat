@@ -27,7 +27,9 @@
 }
 
 .singleMessageModule_self {
-    border: 1.4px solid rgb(194,194,194);
+    border: 1.2px solid rgb(194,194,194);
+
+    box-shadow: rgb(221, 226, 231) -1px 1px 0.5px 0.5px;
 
     width: fit-content;
     min-width: 2.5rem;
@@ -46,7 +48,9 @@
 }
 
 .singleMessageModule_opposite {
-    border: 1.4px solid rgb(24,144,255);
+    border: 1.2px solid rgb(24,144,255);
+
+    box-shadow: rgb(211, 223, 235) 1px 1px 0.5px 0.5px;
 
     width: fit-content;
     min-width: 2.5rem;
@@ -64,7 +68,7 @@
     padding: 0.4rem 0.5rem;
 }
 
-.messageTime {
+ .messageTime {
     /* border: 1px solid red; */
 
     width: 2.5rem;
@@ -76,4 +80,4 @@
     color:rgb(75, 74, 74);
 
     margin: 0 0.15rem;
-}
+} 

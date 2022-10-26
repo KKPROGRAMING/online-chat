@@ -14,7 +14,7 @@ export default class FriendTitle extends React.Component {
           <Username content={this.props.username}/>
           <SignatrueOrMsg classname={this.props.classname} content={this.props.signatrue} />
         </div>
-        <FriendOptions username={this.props.username}/>
+        <FriendOptions username={this.props.username} fire={this.props.fire}/>
       </div>
     );
   }

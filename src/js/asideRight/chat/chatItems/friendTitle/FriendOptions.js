@@ -10,7 +10,7 @@ export default class FriendOptions extends React.Component {
           <Popover
             placement="bottomRight"
             title="亲密度"
-            content={`您与${this.props.username}的亲密度为${80}`}
+            content={`您与${this.props.username}的亲密度为${this.props.fire}`}
             trigger="hover"
           >
             <Button

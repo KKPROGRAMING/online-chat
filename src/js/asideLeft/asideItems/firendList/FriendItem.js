@@ -17,7 +17,7 @@ export default class FriendItem extends React.Component {
                 </div>
                 <div className="check">
                     <IfChecked/>
-                    <Time/>
+                    <Time time={new Date().getHours()+':'+new Date().getMinutes()}/>
                 </div>
             </div>
         );

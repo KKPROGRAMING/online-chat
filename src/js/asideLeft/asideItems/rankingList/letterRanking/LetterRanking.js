@@ -3,6 +3,7 @@ import "../../../../../css/asideLeft/asideItems/rankingList/letterRanking/Letter
 import FiltedFriends from "./FiltedFriends";
 import friends from "../../../../../constData/friends";
 import { pinyin } from "pinyin-pro";
+import { Breadcrumb } from "antd";
 
 export default class LetterRanking extends React.Component {
   render() {
@@ -14,9 +15,22 @@ export default class LetterRanking extends React.Component {
 
     return (
       <div className="letterRanking">
-        {filtedLetters.map((item, index) => (
-          <FiltedFriends letter={item} key={index} />
-        ))}
+        
+        <div className="letterRankingContent">
+          {filtedLetters.map((item, index) => (
+            <FiltedFriends letter={item} key={'letter'+index} id={'letter'+index}/>
+          ))}
+        </div>
+        <Breadcrumb className="indexBar" separator="">
+          {filtedLetters.map((item, index) => (
+            <Breadcrumb.Item
+              className="indexBarItem"
+              key={"letterIndex" + index}
+            >
+              <a href={'#letter'+index}>{item.toUpperCase()}</a>
+            </Breadcrumb.Item>
+          ))}
+        </Breadcrumb>
       </div>
     );
   }

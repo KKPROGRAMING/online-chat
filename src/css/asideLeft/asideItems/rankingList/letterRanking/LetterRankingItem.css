@@ -5,7 +5,7 @@
 .rankingItem {
     /* border: 1px solid rgb(194, 194, 194); */
 
-    width: 20rem;
+    width: 17.5rem;
     height: 4rem;
 
     margin-top: -0.5rem;
@@ -22,15 +22,4 @@
 
 .letterRankingItem:hover {
     background-color: rgb(241,241,241);
-}
-
-.personalInfo {
-    /* border: 1px solid red; */
-
-    width: 11rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
 }

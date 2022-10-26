@@ -3,10 +3,11 @@
 
     display: inline-block;
     width: 3rem;
-    line-height: 1.3rem;
+    height: 1.2rem;
 
     font-size: small;
     text-align: center;
+    color: rgb(156, 154, 154);
 
     flex-shrink: 0;
 
