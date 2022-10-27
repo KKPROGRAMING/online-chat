@@ -1,11 +1,14 @@
 .setting {
-  border: 1px solid red;
+  border: 1px solid rgb(194,194,194);
 
   width: 33rem;
   height: 32.2rem;
 
+  box-sizing: border-box;
+  padding: 0.8rem;
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -8,7 +8,7 @@ import { pinyin } from "pinyin-pro";
 export default class FiltedFriends extends React.Component {
   render() {
     return (
-      <div className="filtedFriends">
+      <div className="filtedFriends" id={this.props.id}>
         <Divider orientation="left" className="divider">
           {this.props.letter.toUpperCase()}
         </Divider>

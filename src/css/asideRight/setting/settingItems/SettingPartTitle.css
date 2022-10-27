@@ -1,0 +1,33 @@
+.settingPartTitle {
+    /* border: 1px solid purple; */
+    border-bottom: 1.2px solid rgb(194,194,194);
+
+    width: 31rem;
+    height: 2.5rem;
+
+    font-size: middle;
+    font-weight: bold;
+
+    line-height: 1.8rem;
+
+    margin-bottom: 1.2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleIcon {
+    /* border: 1px solid red; */
+
+    width: 1.8rem;
+    height: 1.8rem;
+
+    margin-right: 0.2rem;
+
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+
+    text-align: center;
+}
