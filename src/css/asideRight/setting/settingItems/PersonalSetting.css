@@ -1,12 +1,20 @@
 .personalSetting {
     /* border: 1px solid blue; */
 
-    width: 31rem;
-    height: 15rem;
+    width: 29rem;
+    height: 18rem;
 
     margin-bottom: 1.2rem;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.submitButton {
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }

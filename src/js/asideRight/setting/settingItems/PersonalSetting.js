@@ -1,9 +1,10 @@
 import React from "react";
 import "../../../../css/asideRight/setting/settingItems/PersonalSetting.css";
 import SettingPartTitle from "./SettingPartTitle";
-import { Form, Input } from "antd";
+import { Form, Input, Button } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import user from "../../../../constData/user";
+import UserImg from "../../../common/UserImg";
 
 export default class PersonalSetting extends React.Component {
   render() {
@@ -12,14 +13,19 @@ export default class PersonalSetting extends React.Component {
         <SettingPartTitle icon={<UserOutlined />} content="个人信息" />
         <Form>
           <Form.Item
+            label="个人头像"
+            name="userImg"
+          >
+            <UserImg
+            type="userImg"
+              title={"点击上传"}
+              username={user[0].username}
+              src={user[0].src}
+            />
+          </Form.Item>
+          <Form.Item
             label="用户昵称"
             name="username"
-            rules={[
-              {
-                required: true,
-                message: "inputUsername",
-              },
-            ]}
           >
             <Input
               defaultValue={user[0].username}
@@ -27,16 +33,20 @@ export default class PersonalSetting extends React.Component {
             />
           </Form.Item>
           <Form.Item
-            label="个人签名"
+            label="个性签名"
             name="msg"
-            rules={[
-              {
-                required: true,
-                message: "inputMsg",
-              },
-            ]}
           >
-            <Input.TextArea defaultValue={user[0].msg===''?"什么也没有留下...":user[0].msg} style={{ resize: "none" }} />
+            <Input.TextArea
+              defaultValue={
+                user[0].msg === "" ? "什么也没有留下..." : user[0].msg
+              }
+              style={{ resize: "none" }}
+            />
+          </Form.Item>
+          <Form.Item className="submitButton">
+            <Button type="primary" htmlType="submit">
+              保存
+            </Button>
           </Form.Item>
         </Form>
       </div>

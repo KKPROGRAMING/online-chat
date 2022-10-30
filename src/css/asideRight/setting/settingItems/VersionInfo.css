@@ -1,6 +1,12 @@
 .versionInfo {
     /* border: 1px solid blue; */
 
-    width: 31rem;
+    width: 29rem;
     height: 5rem;
+}
+
+.versionButton {
+    /* border: 1px solid red; */
+
+    margin-bottom: 1.6rem;
 }

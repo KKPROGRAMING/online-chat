@@ -11,6 +11,7 @@ export default class Setting extends React.Component {
                 <PersonalSetting/>
                 <SecuritySetting/>
                 <VersionInfo/>
+                
             </div>
         );
     }
